@@ -17,3 +17,6 @@ barplot(entry, legend = TRUE)
 #파이차트
 pie(table(KOTRA2023 $진출대륙명))
 pie(table(KOTRA2023 $투자형태))
+
+
+barplot(table(KOTRA2023 $진출대륙명),col=pal1, xlab= "진출대륙명", ylab= "진출기업수", xlim=c(0,10000), horiz=TRUE)
